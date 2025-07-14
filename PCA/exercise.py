@@ -10,6 +10,7 @@ from sklearn.impute import KNNImputer
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+from sklearn.preprocessing import FunctionTransformer
 from sklearn.preprocessing import PowerTransformer
 from sklearn.ensemble import IsolationForest
 from sklearn.linear_model import LogisticRegression
