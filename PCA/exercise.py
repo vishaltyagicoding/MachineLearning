@@ -9,7 +9,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.impute import KNNImputer
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.preprocessing import FunctionTransformer
 import numpy as np
 from sklearn.preprocessing import PowerTransformer
 from sklearn.ensemble import IsolationForest
