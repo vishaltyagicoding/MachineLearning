@@ -17,21 +17,15 @@ class GD:
         self.b = 0
         self.m = [1 for _ in range(cols)]
         for i in range(self.iterations):
-
             # print(self.m)
             y_hat = np.dot(X, self.m) + self.b
             # print(y_hat.shape)
             loss_slope_b = (-2 * np.sum(y - y_hat)) / rows
             # print(loss_slope_b)
-
             self.b = self.b - (self.learning_rate * loss_slope_b)
-
             loss_slope_m = -2 * np.dot((y - y_hat), X) / rows
-
             # print(loss_slope_m.shape)
-
             self.m = self.m - (self.learning_rate * loss_slope_m)
-
         print(self.m)
         print(self.b)
 
