@@ -1,0 +1,14 @@
+# Core dependencies
+selenium>=4.1.0
+requests>=2.27.1
+pandas>=1.4.0
+
+# CAPTCHA handling dependencies
+undetected-chromedriver>=3.1.5
+SpeechRecognition>=3.8.1
+pydub>=0.25.1
+2captcha-python>=1.1.2
+
+# Optional: For image-based CAPTCHAs
+pytesseract>=0.3.9
+Pillow>=9.0.1

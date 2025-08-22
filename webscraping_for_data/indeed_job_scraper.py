@@ -1,10 +1,9 @@
 import time
 import pandas as pd
-from webscraping_for_data.selenium_scraper import SeleniumScraper
+from selenium_scraper import SeleniumScraper
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
-from webscraping_for_data.captcha_handler import CaptchaHandler
 
 
 def scrape_indeed_jobs(job_title, location, num_pages=1):
