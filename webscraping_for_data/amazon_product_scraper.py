@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 
-
 def scrape_amazon_products(search_term, num_pages=1):
     """
     Scrape product information from Amazon based on a search term
